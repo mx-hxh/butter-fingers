@@ -36,7 +36,7 @@ def butterfinger(text,prob=0.1,keyboard='querty'):
 		keyApprox['m'] = "mnkjloik"
 		keyApprox[' '] = " "
 	else:
-		print "Keyboard not supported."
+		print("Keyboard not supported.")
 
 	probOfTypoArray = []
 	probOfTypo = int(prob * 100)
